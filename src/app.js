@@ -1,12 +1,6 @@
 import "./style.css";
 import "./assets/img/4geeks.ico";
 
-// let pintaDeCarta = [
-//   '<i class="fas fa-heart"></i><i class="fas fa-heart"></i>',
-//   '<i class="fab fa-first-order"></i><i class="fab fa-first-order"></i>',
-//   ' <i class="fas fa-spa"></i> <i class="fas fa-spa"></i>',
-//   '<i class="fas fa-tree"></i><i class="fas fa-tree"></i>'
-// ];
 
 window.onload = function() {
   let pintaDeCarta = [
