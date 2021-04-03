@@ -1,1 +1,62 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: rgba(0, 100, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
+.contenido {
+  margin-top: 20px;
+  background-color: white;
+  width: 32%;
+  height: 618px;
+}
+
+.fa-color {
+  color: red;
+}
+
+.carta {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 150px;
+  align-items: center;
+}
+
+.arriba {
+  margin-top: 10px;
+  margin-right: 320px;
+}
+
+.abajo {
+  margin-left: 320px;
+}
+
+#cambiar {
+  margin-top: 10px;
+  margin-left: 43%;
+  padding: 5px;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgba(255, 109, 0, 0.8);
+  color: rgb(3, 7, 30);
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+#cambiar:hover {
+  background-color: rgba(1255, 158, 0, 0.9);
+  box-shadow: rgb(0, 0, 0) 3px 3px;
+}
